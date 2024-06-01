@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Virtual</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Consultorio Virtual</div>
+        <div class="input-container">
+            <label for="user-input">Ingrese su mensaje:</label>
+            <input type="text" id="user-input" placeholder="Escriba su mensaje aquí...">
+        </div>
+        <div class="video-container">
+            <label for="video">Transmisión en vivo:</label>
+            <video id="video" autoplay></video>
+        </div>
+        <button class="send-button">Enviar</button>
+        <div id="response-container" class="response-container"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
